@@ -1,0 +1,21 @@
+{
+  "name": "rest-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myserver.js",
+  "scripts": {
+    "start": "nodemon myserver.js"
+  },
+  "keywords": [
+    "Rest",
+    "API"
+  ],
+  "author": "Fariha Fairoz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
