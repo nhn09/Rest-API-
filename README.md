@@ -5,3 +5,10 @@ Rest API is representational State transfer API which actually sends data in the
 So using URI and HTTP verbs, developers are free to locate specific piece of data which server provides based on requirement and manupulate that data for further usage in his own app-webpage independent of platform he uses. This adds huge scalability to rest API and the json formate decreases file size as well.
 
 ## How to design
+* Object modelling
+
+
+## Starting Backend 
+* create folder with a json and a js file as server.for that use terminal and invoke npm init.
+* Install express ( npm i express)
+* 
