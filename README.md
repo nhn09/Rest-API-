@@ -11,4 +11,6 @@ So using URI and HTTP verbs, developers are free to locate specific piece of dat
 ## Starting Backend 
 * create folder with a json and a js file as server.for that use terminal and invoke npm init.
 * Install express ( npm i express)
-* 
+* use morgan for logs
+* body parser
+* CORS - if the backend and frontend are not hosted from same port,using cors can solve the issue.
