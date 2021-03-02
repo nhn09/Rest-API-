@@ -5,30 +5,9 @@ const contactRoute=require('./api/routes/contact')
 
 const PORT = process.env.PORT || 3000
 
-app.use('/api/cadets')
-
 app.get('/',(req,res)=>
 {
     res.send('Hello world')
-
-})
-
-app.get('/posts',(req,res)=>
-{
-    res.send('I am a post.')
-})
-
-app.post('/myapi/cadets',(req,res)=>
-{
-    res.json({
-        message: 'POst method'
-    })
-})
-
-
-app.get('/myapi/cadets',(req,res)=>
-{
-    res.json(cadets)
 })
 
 app.listen(PORT, () => {
